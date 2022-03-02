@@ -69,7 +69,7 @@ i .fa:hover {
     background-position-x: 50%;
     filter: opacity(0.75);
     background-position-y: 50%;
-    background-image: url(/parallax1.jpg);
+    background-image: url(https://dhruv036.github.io/Webdemo.github.io/parallax1.jpg);
 }
 
 .heading span pre {
@@ -236,7 +236,7 @@ div .skillname {
     position: relative;
     opacity: 0.75;
     background-attachment: scroll;
-    background-image: url(/parallax2.jpg);
+    background-image: url(https://dhruv036.github.io/Webdemo.github.io/parallax2.jpg);
 }
 
 .portfolio_section .paraimg2 div {
@@ -311,35 +311,35 @@ div .skillname {
 }
 
 .galary .img1 {
-    background-image: url(/p1.jpg);
+    background-image: url(https://dhruv036.github.io/Webdemo.github.io/p1.jpg);
 }
 
 .galary .img2 {
-    background-image: url(/p2.jpg);
+    background-image: url(https://dhruv036.github.io/Webdemo.github.io/p2.jpg);
 }
 
 .galary .img3 {
-    background-image: url(/p3.jpg);
+    background-image: url(https://dhruv036.github.io/Webdemo.github.io/p3.jpg);
 }
 
 .galary .img4 {
-    background-image: url(/p4.jpg);
+    background-image: url(https://dhruv036.github.io/Webdemo.github.io/p4.jpg);
 }
 
 .galary2 .img5 {
-    background-image: url(/p5.jpg);
+    background-image: url(https://dhruv036.github.io/Webdemo.github.io/p5.jpg);
 }
 
 .galary2 .img6 {
-    background-image: url(/p6.jpg);
+    background-image: url(https://dhruv036.github.io/Webdemo.github.io/p6.jpg);
 }
 
 .galary2 .img7 {
-    background-image: url(/p7.jpg);
+    background-image: url(https://dhruv036.github.io/Webdemo.github.io/p7.jpg);
 }
 
 .galary2 .img8 {
-    background-image: url(/p8.jpg);
+    background-image: url(https://dhruv036.github.io/Webdemo.github.io/p8.jpg);
 }
 
 button {
@@ -364,7 +364,7 @@ button:hover {
     height: 60vh;
     margin-top: 30px;
     width: 100%;
-    background-image: url(/parallax3.jpg);
+    background-image: url(https://dhruv036.github.io/Webdemo.github.io/parallax3.jpg);
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -423,7 +423,7 @@ footer .it {
     vertical-align: top;
     background-size: cover;
     background-position: 50% 50%;
-    background-image: url(/map.jpg);
+    background-image: url(https://dhruv036.github.io/Webdemo.github.io/map.jpg);
 }
 
 .content {
