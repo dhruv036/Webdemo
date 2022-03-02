@@ -1,0 +1,465 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: block;
+}
+
+@keyframes headingani {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.nav_section {
+    display: block;
+    position: fixed;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.nav_bar {
+    display: block;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.nav_bar a {
+    display: block;
+    float: left;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #777;
+    font-weight: 100px;
+}
+
+.nav_bar .listitem:hover {
+    background-color: rgb(212, 205, 205);
+    color: black;
+}
+
+i .fa:hover {
+    color: black;
+}
+
+.nav_bar .listitem {
+    font-family: 'Sora', sans-serif;
+}
+
+.nav_bar .searchbt {
+    float: right;
+    margin-right: 16px;
+}
+
+.nav_bar .searchbt:hover {
+    background-color: rgb(255, 34, 34);
+    color: white;
+}
+
+.background {
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    filter: opacity(0.75);
+    background-position-y: 50%;
+    background-image: url(/parallax1.jpg);
+}
+
+.heading span pre {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 24px;
+    font-family: "Lato", sans-serif;
+    background-color: #3F3F3F;
+    letter-spacing: 8px;
+    animation: headingani 1s ease-in;
+    position: absolute;
+    top: 30%;
+    height: auto;
+    right: 37%;
+    margin: 0px;
+    white-space: nowrap;
+    color: white;
+}
+
+.heading {
+    margin-top: 100px;
+}
+
+h3 {
+    font-family: 'Sora', sans-serif;
+    font-size: 25px;
+    width: 100%;
+    color: #777;
+    font-weight: 100;
+    text-align: center;
+}
+
+.heading .para {
+    width: 100%;
+    font-family: 'Sora', sans-serif;
+    color: #777;
+    font-style: italic;
+    text-align: center;
+    font-size: 15px;
+}
+
+.heading .bio {
+    width: 75%;
+    font-family: 'Sora', sans-serif;
+    color: #777;
+    margin: 0px auto;
+    text-align: justify;
+    line-height: 1.5em;
+    font-size: 15px;
+}
+
+.infosection {
+    width: 70%;
+    margin: 0px auto;
+    margin-top: 80px;
+    grid-gap: 30px;
+    display: grid;
+    grid-template-areas: 'header footer' 'menu footer';
+}
+
+.infosection .myname {
+    grid-area: header;
+    font-family: 'Sora', sans-serif;
+    font-weight: 500;
+    float: left;
+    height: min-content;
+    margin: 0px auto;
+    color: rgb(53, 52, 52);
+    font-size: 15px;
+}
+
+.infosection img {
+    margin: 10px auto;
+    grid-area: menu;
+    width: 95%;
+    height: auto;
+}
+
+.infosection .mybio {
+    grid-area: footer;
+    margin-top: 0px;
+    text-align: justify;
+    color: #777;
+    line-height: 1.5em;
+    font-family: 'Sora', sans-serif;
+    font-size: 15px;
+}
+
+.skill_section {
+    width: 75%;
+    height: auto;
+    margin: 0px auto;
+    background-color: white;
+}
+
+div .skillbar1 {
+    width: 90%;
+    font-family: 'Sora', sans-serif;
+    height: auto;
+    background-color: #3F3F3F;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+div .skillbar2 {
+    width: 85%;
+    height: auto;
+    font-family: 'Sora', sans-serif;
+    background-color: #3F3F3F;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+div .skillbar3 {
+    width: 75%;
+    height: auto;
+    font-family: 'Sora', sans-serif;
+    padding: 10px 10px;
+    background-color: #3F3F3F;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+div .skillname {
+    color: #555555;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 12px;
+    font-weight: 300;
+    padding: 10px 0px
+}
+
+.portfolio_section {
+    margin-top: 40px;
+    height: 60vh;
+}
+
+.portfolio_section .postfolio_bar {
+    height: 22vh;
+    display: flex;
+    height: auto;
+    flex-flow: row;
+    padding: 40px 0px;
+    justify-content: space-evenly;
+    background-color: #555555;
+}
+
+.portfolio_section .postfolio_bar .stats {
+    color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: 'Sora', sans-serif;
+    font-size: 20px;
+}
+
+.portfolio_section .paraimg2 {
+    height: 55vh;
+    background-position: 50% 50%;
+    position: relative;
+    opacity: 0.75;
+    background-attachment: scroll;
+    background-image: url(/parallax2.jpg);
+}
+
+.portfolio_section .paraimg2 div {
+    position: absolute;
+    top: 50%;
+    display: block;
+    right: 512px;
+    font-family: "Lato", sans-serif;
+    color: white;
+    line-height: 10px;
+    font-size: 36px;
+    opacity: 1;
+    letter-spacing: 10px;
+}
+
+.worksection .work_heading {
+    position: relative;
+    font-family: 'Sora', sans-serif;
+    font-size: 25px;
+    width: 100%;
+    color: #777;
+    font-weight: 100;
+    text-align: center;
+}
+
+.worksection .para {
+    width: 100%;
+    position: relative;
+    font-family: 'Sora', sans-serif;
+    color: #777;
+    font-style: italic;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.galary {
+    height: 30vh;
+    position: relative;
+    display: flex;
+    margin: 0px auto;
+    flex-flow: row;
+    gap: 20px;
+    top: 100px;
+    width: 60%;
+}
+
+.galary2 {
+    height: 30vh;
+    position: relative;
+    display: flex;
+    overflow: none;
+    flex-flow: row;
+    margin: 0px auto;
+    top: 120px;
+    gap: 20px;
+    width: 60%;
+}
+
+.galary .images {
+    width: 300px;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: auto;
+}
+
+.galary2 .images {
+    width: 300px;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: auto;
+}
+
+.galary .img1 {
+    background-image: url(/p1.jpg);
+}
+
+.galary .img2 {
+    background-image: url(/p2.jpg);
+}
+
+.galary .img3 {
+    background-image: url(/p3.jpg);
+}
+
+.galary .img4 {
+    background-image: url(/p4.jpg);
+}
+
+.galary2 .img5 {
+    background-image: url(/p5.jpg);
+}
+
+.galary2 .img6 {
+    background-image: url(/p6.jpg);
+}
+
+.galary2 .img7 {
+    background-image: url(/p7.jpg);
+}
+
+.galary2 .img8 {
+    background-image: url(/p8.jpg);
+}
+
+button {
+    background-color: rgb(240, 238, 238);
+    color: black;
+    border: none;
+    font-size: 20px;
+    position: relative;
+    left: 45%;
+    text-align: center;
+    font-family: 'Sora', sans-serif;
+    margin-top: 180px;
+    padding: 10px 24px;
+}
+
+button:hover {
+    background-color: rgb(160, 158, 158);
+}
+
+.para3 {
+    position: relative;
+    height: 60vh;
+    margin-top: 30px;
+    width: 100%;
+    background-image: url(/parallax3.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.75;
+}
+
+.para3 span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 10px;
+    font-size: 60px;
+    line-height: 10px;
+}
+
+footer .heading2 {
+    font-family: 'Sora', sans-serif;
+    font-size: 25px;
+    width: 100%;
+    margin-top: 100px;
+    color: #777;
+    font-weight: 300;
+    text-align: center;
+}
+
+footer .it {
+    width: 100%;
+    color: #777;
+    font-family: 'Sora', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 200;
+    text-align: center;
+}
+
+.center {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+    width: 70%;
+    margin-top: 150px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.imgg1 {
+    width: 30%;
+    display: inline-block;
+    border-radius: 10px;
+    height: 170px;
+    vertical-align: top;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(/map.jpg);
+}
+
+.content {
+    padding-top: 20px;
+    display: inline-block;
+    width: 60%;
+    color: #777;
+    font-family: 'Sora', sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+input {
+    float: left;
+    font-size: 15px;
+    font-family: 'Sora', sans-serif;
+    border: 1px solid #777;
+    margin-top: 10px;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.vb {
+    margin-left: 20px;
+}
+
+.bt {
+    float: right;
+    background-color: black;
+    color: white;
+    font-family: 'Sora', sans-serif;
+    padding: 8px 10px;
+    width: fit-content;
+    margin-top: 30px;
+    height: fit-content;
+    justify-content: end;
+}
